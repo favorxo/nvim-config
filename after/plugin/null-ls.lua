@@ -12,7 +12,7 @@ null_ls.setup({
 		}),
 		null_ls.builtins.formatting.goimports,
 		null_ls.builtins.formatting.stylua,
-		--null_ls.builtins.formatting.prettierd,
+		null_ls.builtins.formatting.prettierd,
 	},
 	on_attach = function(client, _)
 		if client.server_capabilities.documentFormattingProvider then
