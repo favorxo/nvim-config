@@ -21,32 +21,32 @@ lspkind.init({
 	--
 	-- default: {}
 	symbol_map = {
-		Text = "",
+		Text = "",
 		Method = "",
 		Function = "",
 		Constructor = "",
-
-		Field = "ﰠ",
-		Variable = "",
+		Field = "",
+		Variable = "",
 		Class = "ﴯ",
 		Interface = "",
 		Module = "",
 		Property = "ﰠ",
-		Unit = "塞",
+		Unit = "",
+
 		Value = "",
-		Enum = "",
+		Enum = "",
 		Keyword = "",
 		Snippet = "",
 		Color = "",
 		File = "",
-		Reference = "",
+		Reference = "",
 		Folder = "",
 		EnumMember = "",
 		Constant = "",
-
-		Struct = "פּ",
+		Struct = "",
 		Event = "",
+
 		Operator = "",
-		TypeParameter = "",
+		TypeParameter = "",
 	},
 })

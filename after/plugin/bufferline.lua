@@ -12,7 +12,7 @@ bufferline.setup({
 		show_close_icon = false,
 		color_icons = true,
 		indicator = {
-			icon = "",
+			icon = "|",
 		},
 	},
 	highlights = {

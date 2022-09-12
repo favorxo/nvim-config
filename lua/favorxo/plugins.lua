@@ -11,6 +11,7 @@ packer.startup(function(use)
 	-- Themes
 	use("Shatur/neovim-ayu")
 	use("olimorris/onedarkpro.nvim")
+	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	use("nvim-lualine/lualine.nvim") -- Statusline
 	use("nvim-lua/plenary.nvim") -- Common utilities
@@ -38,5 +39,6 @@ packer.startup(function(use)
 	use("windwp/nvim-ts-autotag")
 	use("norcalli/nvim-colorizer.lua")
 	use("akinsho/nvim-bufferline.lua")
+
 	-- use 'github/copilot.vim'
 end)
