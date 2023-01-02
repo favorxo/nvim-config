@@ -4,25 +4,23 @@ if not status then
 end
 
 ts.setup({
-	highlight = {
-		enable = true,
-		disable = {},
-	},
-	indent = {
-		enable = true,
-		disable = {},
-	},
 	ensure_installed = {
+		"javascript",
+		"typescript",
 		"tsx",
 		"json",
 		"yaml",
 		"css",
 		"html",
+		"help",
+		"java",
 		"lua",
-		"javascript",
-		"typescript",
 		"go",
 		"python",
+	},
+	auto_install = true,
+	highlight = {
+		enable = true,
 	},
 	autotag = {
 		enable = true,
